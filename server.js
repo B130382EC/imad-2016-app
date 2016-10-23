@@ -84,6 +84,12 @@ app.get('/counter',function(req,res){
    res.send(counter.toString());
 });
 
+app.get('/test-db',function(req,res){
+   //make a select request 
+   //and return a response with the results
+    
+});
+
 app.get('/:articleName',function(req,res){
     //articleName == article-one
     //articles[articleName]=={} content object for article one
